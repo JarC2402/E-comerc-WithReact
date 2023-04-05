@@ -40,7 +40,7 @@ const Login = () => {
         <Form onSubmit={(e) => handleSubmit(e)}>
           <h1>Login</h1>
           <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Label>Email address</Form.Label>
+            <Form.Label>Email address: jarc240218@gmail.com</Form.Label>
             <Form.Control
               type="email"
               placeholder="Enter email"
@@ -50,7 +50,7 @@ const Login = () => {
           </Form.Group>
 
           <Form.Group className="mb-3" controlId="formBasicPassword">
-            <Form.Label>Password</Form.Label>
+            <Form.Label>Password: 323232</Form.Label>
             <Form.Control
               type="password"
               placeholder="Password"
